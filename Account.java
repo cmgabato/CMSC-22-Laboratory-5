@@ -21,8 +21,8 @@ public class Account{
 			
 		a1.credit(2012);
 		a1.debit(666666);
-     	System.out.println(a1);  // run toString() to inspect the modified instance
-     	a1.setBalance(123456.55);
+     		System.out.println(a1);  // run toString() to inspect the modified instance
+     		a1.setBalance(123456.55);
    	   	System.out.println(a1); 
 	}
 
