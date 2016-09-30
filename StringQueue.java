@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class StringQ{
+public class StringQueue{
 	private String[] elements;
 	private int count; 
 	public static final int DEFAULT_SIZE=10;
 
-	public StringQ(){
+	public StringQueue(){
 		this(DEFAULT_SIZE);
 	}
 
-	public StringQ(int size){
+	public StringQueue(int size){
 		if (size <=0){
 			throw new IllegalArgumentException("Invalid Input!!");
 		}
@@ -108,7 +108,7 @@ public class StringQ{
 	}
 
 public static void main(String[] args){
-		StringQ myQueue=new StringQ();
+		StringQueue myQueue=new StringQueue();
 		myQueue.enqueue("pen");
 		myQueue.enqueue("apple");
 		myQueue.enqueue("applepen");
