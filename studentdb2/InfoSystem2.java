@@ -208,7 +208,7 @@ public class InfoSystem2{
 				System.out.println("Change Crush Name Level: ");
 				crushName = sc.next();
 				s.setCrushName(crushName);
-				System.out.println("Change Favorite Course Level: ");
+				System.out.println("Change Favorite Course: ");
 				courseCode = sc.next();
 				courseDescription = sc.next();
 				s.setfavCourse(courseCode, courseDescription);
